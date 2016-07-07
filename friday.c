@@ -1,56 +1,12 @@
-/*#include <stdio.h>
-#include <string.h>
+/*
+ID: dixingx1
+LANG: C
+PROG: friday
+*/
 
-
-struct week{
-	int days;
-	char* weekdays;
-};
-
-void thirtydaymonth(char* week, ){
-	//April, June, September and Novermber
-	start
-	
-	
-	
-}
-
-void leap(int year, int N){
-	int ctr;
-	for (int i=0; i<N;i++){
-	year = 1990 + i;
-		if (year%4 == 0){
-			if(year%100 == 0){
-				if(year%400 != 0){
-					//do nothing since 1700,1800,1900 are not leap years
-				}
-				else{
-					ctr++;
-				}
-			}	
-			else {
-				ctr++;
-				}
-			}
-		}
-}
-
-void Feb(void)
-{
-	
-}
-
-int main(){
-	FILE *fin = fopen("friday.in", "r");
-	FILE *fout = fopen("friday.out", "w");
-	int N; // The number of passing year
-	fscanf(fin, "%d", N);
-	
-	char* week = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
-	
-} */
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 
 int n, num[8];
 bool is_leap(int year)
@@ -60,11 +16,13 @@ bool is_leap(int year)
 	else
 		return 0;
 }
-void solve()
+void solve(int N)
 {
+	FILE *fout = fopen("friday.out", "w");
+
 	memset(num, 0, sizeof(num));
 	int xx = 1;
-	for (int year = 1900; year <= 1900 + n - 1; year++)
+	for (int year = 1900; year <= 1900 + N - 1; year++)
 	{
 		for (int month = 1; month <= 12; month++)
 		{
@@ -82,14 +40,18 @@ void solve()
 			num[tag]++;
 		}
 	}
-	printf("%d %d", num[6], num[7]);
+	fprintf(fout, "%d %d", num[6], num[7]);
 	for (int i = 1; i <= 5; i++)
-		printf(" %d", num[i]);
-	puts("");
+		fprintf(fout, " %d", num[i]);
+	fputs("\n",fout);
+	
 }
 int main()
 {
-	while (~scanf("%d", &n))
-		solve();
+	FILE *fin = fopen("friday.in", "r");
+	FILE *fout = fopen("friday.out", "w");
+	int N; // The number of passing year
+	fscanf(fin, "%d", &N);
+	solve(N);
 	return 0;
 }
