@@ -1,4 +1,8 @@
 # USACO_sol
-My solution to USACO training system.
+Solutions to USACO training system. My solutions might not be the most efficient ones, but I did on my own and had a lot of fun. 
 
-My solution might not be the most efficient ones, but I did on my own and had a lot of fun. Thanks for watching.
+Updates:
+02/07/2016 start my journey
+05/07/2016 Section1.1 ride.c gitf1.c
+07/07/2016 Section1.1 friday.c
+
