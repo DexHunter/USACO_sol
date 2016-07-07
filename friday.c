@@ -15,7 +15,7 @@ bool is_leap(int year)
 	else
 		return 0;
 }
-void solve(int N)
+void check(int N)
 {
 	FILE *fout = fopen("friday.out", "w");
 	memset(num, 0, sizeof(num));
@@ -50,6 +50,6 @@ int main()
 	FILE *fin = fopen("friday.in", "r");
 	int N; // The number of passing year
 	fscanf(fin, "%d", &N);
-	solve(N);
+	check(N);
 	return 0;
 }
