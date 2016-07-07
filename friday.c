@@ -8,7 +8,7 @@ PROG: friday
 #include <string.h>
 #include <stdbool.h>
 
-int n, num[8];
+int num[8];
 bool is_leap(int year)
 {
 	if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
