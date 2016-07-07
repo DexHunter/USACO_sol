@@ -8,7 +8,6 @@ PROG: friday
 #include <string.h>
 #include <stdbool.h>
 
-int num[8];
 bool is_leap(int year)
 {
 	if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
@@ -22,6 +21,7 @@ void solve(int N)
 
 	memset(num, 0, sizeof(num));
 	int xx = 1;
+	int num[8];
 	for (int year = 1900; year <= 1900 + N - 1; year++)
 	{
 		for (int month = 1; month <= 12; month++)
