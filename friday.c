@@ -18,25 +18,24 @@ bool is_leap(int year)
 void solve(int N)
 {
 	FILE *fout = fopen("friday.out", "w");
-
 	memset(num, 0, sizeof(num));
-	int xx = 1;
+	int fd = 1; //first day, eg. 1990.1.1 is Monday thus, fd corresponding to 1
 	int num[8];
 	for (int year = 1900; year <= 1900 + N - 1; year++)
 	{
 		for (int month = 1; month <= 12; month++)
 		{
-			int tem;
+			int days;
 			if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
-				tem = 31;
+				days= 31;
 			else if (month == 4 || month == 6 || month == 9 || month == 11)
-				tem = 30;
+				days = 30;
 			else if (month == 2 && is_leap(year))
-				tem = 29;
+				days = 29;
 			else if (month == 2 && !is_leap(year))
-				tem = 28;
-			int tag = (xx + 12) % 7 == 0 ? 7 : (xx + 12) % 7;
-			xx = (xx + tem) % 7 == 0 ? 7 : (xx + tem) % 7;
+				days = 28;
+			int tag = (fd + 12) % 7 == 0 ? 7 : (fd + 12) % 7; 
+			fd = (fd + days) % 7 == 0 ? 7 : (fd + days) % 7;
 			num[tag]++;
 		}
 	}
