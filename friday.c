@@ -49,7 +49,6 @@ void solve(int N)
 int main()
 {
 	FILE *fin = fopen("friday.in", "r");
-	FILE *fout = fopen("friday.out", "w");
 	int N; // The number of passing year
 	fscanf(fin, "%d", &N);
 	solve(N);
