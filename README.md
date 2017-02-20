@@ -1,4 +1,7 @@
-# USACO_sol
+# cc_sol
+Solutions to several code practices, including usaco, codeforces.
+
+## USACO
 Solutions to USACO training system. My solutions might not be the most efficient ones, but I did on my own and had a lot of fun. 
 
 Updates:
