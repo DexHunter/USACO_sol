@@ -7,7 +7,7 @@ long long int row, col, a;
 
 int main()
 {
-    while(scanf("%I64d %I64d %I64d",&row,&col,&s)!=EOF)
+    while(scanf("%I64d %I64d %I64d",&row,&col,&a)!=EOF)
     {
         int ctr = 0;
 		long long int left_col = col;
