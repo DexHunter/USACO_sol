@@ -14,10 +14,10 @@ int main()
 		if (a == 1) printf("I64d\n", row*col);
 		else{
 			while(left_col>0){
-				c++;
+				ctr++;
 				left_col-=a;
 			}
-			printf("I64d\n", ((long long int)(ceil)((double)row/a)) * c );
+			printf("I64d\n", ((long long int)(ceil)((double)row/a)) * ctr );
 		}
     }
     return 0;
