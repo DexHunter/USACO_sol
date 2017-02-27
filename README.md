@@ -14,7 +14,7 @@ Have learned:
 * Ad Hoc Problem (I don't think there is a good way to learn this)
 
 
-Have** NOT** learned:
+Have **NOT** learned:
 * Dynamic Programming
 * Complete Search
 * Flood Fill
