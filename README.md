@@ -10,3 +10,11 @@ Updates:
 * 20/02/2017 (cf) Theatre Square
 * 24/02/2017 (cc) a+b
 * 27/02/2017 (usaco) test, ride 
+
+
+TODO:
+* improve C++/C skills (pinned)
+* understand input/output stream
+* understand gcc/g++ 
+* [g++ usage](https://www.cs.fsu.edu/~myers/howto/g++compiling.txt)
+* rewrite usaco PROB greedy, friday, necklace
