@@ -48,7 +48,5 @@ Have** NOT** learned:
 * understand gcc/g++ 
 * [g++ usage](https://www.cs.fsu.edu/~myers/howto/g++compiling.txt)
 * rewrite usaco PROB greedy, friday, necklace in C++11
-=======
 * 24/02/2017 (poj) a+b
  
->>>>>>> 1f0c4e24ec629b2da585de36643f1f79a9e27cf2
