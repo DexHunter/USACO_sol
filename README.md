@@ -1,6 +1,7 @@
 # Practice
 
-Solutions to several code practices, including usaco, codeforces, etc. My solutions might not be the most efficient ones, but I did on my own and had a lot of fun. 
+I love challenges or in other words, tough nuts to crack. Here are some of my 
+solutions to exercises from usaco, codeforces, etc. My solutions might not be the most efficient ones, but I did on my own and had a lot of fun. 
 
 ## Programming Contest Problem Types
 
@@ -10,13 +11,16 @@ Have learned:
 * Greedy
 * Minimum Spanning 
 * Shortest Path
-* Ad Hoc Problems (Well, I don't think there is a way to learn this)
+* Ad Hoc Problem (I don't think there is a good way to learn this)
 
-**Have NOT learned:
+
+Have** NOT** learned:
 * Dynamic Programming
 * Complete Search
 * Flood Fill
+* Shortest Path
 * Recursive Search Techniques
+* Minimum Spanning Tree
 * Knapsack
 * Computational Geometry
 * Network Flow
@@ -25,7 +29,6 @@ Have learned:
 * BigNums
 * Heuristic Search
 * Approximate Search
-**
 
 
 
