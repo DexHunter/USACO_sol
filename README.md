@@ -46,4 +46,4 @@ Have** NOT** learned:
 * understand input/output stream
 * understand gcc/g++ 
 * [g++ usage](https://www.cs.fsu.edu/~myers/howto/g++compiling.txt)
-* rewrite usaco PROB greedy, friday, necklace
+* rewrite usaco PROB greedy, friday, necklace in C++11
